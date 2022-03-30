@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Yan Sapronov CV</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="icon" href="assets/img/favicon.ico">
+</head>
+<body>
+<header>
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#contact" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About me</a></li>
+            <li class="nav-item"><a href="#skill" class="nav-link">Skills and Proficiency</a></li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#lang" class="nav-link">Language</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="profile" style="border-bottom: black 3px solid;">
+    <img class="avatar" src="assets/img/avatar.jpg" alt="My photo">
+    <div>
+        <h1 class="name">Yan Sapronov</h1>
+        <h2 class="future">Future front-end developer </h2>
+    </div>
+</div>
+<div class="flex">
+    <aside>
+        <section class="aside">
+            <h2 id="contact">Contact:</h2>
+            <ol>
+                <li>Tel:<a style="text-decoration: none;" href="tel:+79773755971">+79773755971</a></li>
+                <li>Email:<a style="text-decoration: none;" href="mailto:ya.sapronov@gmail.com">ya.sapronov@gmail.com</a></li>
+                <li>Telegram:<a style="text-decoration: none;" href="https://t.me/W0pro">W0pro</a></li>
+                <li>Moscow, Russia</li>
+            </ol>
+        </section>
+        <section class="aside">
+            <h2 id="skill">Skills and Proficiency:</h2>
+            <ul>
+                <li>HTML, CSS Basic</li>
+                <li>JavaScript Basic</li>
+                <li>Python basic</li>
+                <li>Linux</li>
+            </ul>
+        </section>
+        <section class="aside">
+            <h2 id="lang">Languages:</h2>
+            <ul>
+                <li>Russian - Native</li>
+                <li>Belorussian - Native</li>
+                <li>Czech - Basic</li>
+                <li>English - Basic</li>
+            </ul>
+        </section>
+        <section class="aside">
+            <h2 id="education">Education:</h2>
+            <ul>
+                <li>Belorussian State University</li>
+                <li>RS School(student)</li>
+            </ul>
+        </section>
+    </aside>
+    <div class="info">
+        <main>
+            <section>
+                <h2 id="about">Briefly About Myself:</h2>
+                <p style="line-height: 1.5;">I have always liked the IT technology industry for the fact that.
+                    I have the opportunity to observe how our world is changing with development, and we are changing
+                    with it.
+                    At the age of 26, I realized that this inspires me more than previous professions.
+                    I really enjoy getting new knowledge step by step, changing my thinking and looking at certain things
+                    from a different angle.
+                    I have a very developed memory, the ability to structure actions and think critically.</p>
+            </section>
+            <section>
+                <h2 id="code">Code example:</h2>
+                <pre>
+let userName = prompt("Кто там?");
+if (userName == "Админ"){
+alert("Здравствуйте!");
+}else if(userName == '' || userName == null) {
+alert("Отменено");
+}else {
+alert("Я вас не знаю");
+}
+let pass = prompt("Введите пароль");
+if (pass == "Я главный"){
+alert("Пароль принят!");
+}else if(pass == '' || pass == null) {
+alert("Отменено");
+}else {
+alert("Неверный пароль");
+}                </pre>
+            </section>
+            <section>
+                <h2 id=projects>Projects:</h2>
+                <a style="text-decoration: none;" href="https://github.com/w0pro/rsschool-cv/blob/gh-pages/cv.md">CV in Markdown</a>
+            </section>
+        </main>
+    </div>
+</div>
+<footer style="background: #829985;">
+    <div class="footer">
+        <div>
+            <a href="https://github.com/W0pro" target="_blank"><img src="assets/img/github.svg" alt="github_icon" class="footer__image"></a>
+        </div>
+        <div>
+            <p>2022</p>
+        </div>
+        <div>
+            <a href="https://rs.school/js/" target="_blank"><img src="assets/img/rs_school_js.svg" alt="rss_logo" class="footer__image"> </a>
+        </div>
+
+    </div>
+</footer>
+</body>
+
+</html>

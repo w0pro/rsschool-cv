@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+@font-face{
+    font-family: Sourse Sans Pro;
+    src: url("assets/fonts/Sourse_Sans_Pro/SourceSansPro-Regular.ttf")
+}
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F2EFE6;
+    font-size: 23px;
+    margin: 0px auto;
+    max-width: 1440px;
+    font-family: surse Sourse_Sans_Pro, sans-serif;
+}
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: #829985;
+    box-sizing: border-box;
+    margin: auto;
+    max-width: 1440px;
+}
+.nav-link{
+    padding: 0px 20px;
+    line-height: 50px;
+    text-decoration: none;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: floralwhite;
+}
+.avatar{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 50px;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    font-size: 48px;
+}
+.future{
+    display: flex;
+    font-size: 44px;
+}
+.aside{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 10px 30px;
+    background-color: cadetblue;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    width: 80%;
+    background-color: floralwhite;
+    align-items: stretch;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+section{
+    border-bottom: black 2px solid;
+}
